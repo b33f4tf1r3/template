@@ -1,0 +1,30 @@
+{
+    "name": "template",
+    "version": "0.0.1",
+    "source": "src",
+    "target": "bin",
+    "bundle": [
+        "lib/fmt/json.js",
+        "lib/fmt/string.js",
+        "lib/util/callback.js",
+        "lib/model.js",
+        "lib/view.js",
+        "lib/presenter.js",
+        "app.js",
+        "app.css",
+        "view_deps.html",
+        "view_header.html",
+        "view_navbar.html"
+    ],
+    "copy": [
+        "deps/bootstrap-dark.min.css",
+        "deps/bootstrap.min.js",
+        "deps/fonts",
+        "deps/jquery2.min.js"
+    ],
+    "index": "index.html",
+    "readme": "Readme.md",
+    "deploy": [
+        "/opt/httpd/htdocs/"
+    ]
+}
