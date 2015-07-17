@@ -21,12 +21,6 @@ First we define name, version, source- and target-directory:
 Next we add files (css, html and js) which will be bundled:
 
         "bundle": [
-            "lib/fmt/json.js",
-            "lib/fmt/string.js",
-            "lib/util/callback.js",
-            "lib/model.js",
-            "lib/view.js",
-            "lib/presenter.js",
             "app.js",
             "app.css",
             "view_deps.html",
