@@ -4,12 +4,6 @@
     "source": "src",
     "target": "bin",
     "bundle": [
-        "lib/fmt/json.js",
-        "lib/fmt/string.js",
-        "lib/util/callback.js",
-        "lib/model.js",
-        "lib/view.js",
-        "lib/presenter.js",
         "app.js",
         "app.css",
         "view_deps.html",
